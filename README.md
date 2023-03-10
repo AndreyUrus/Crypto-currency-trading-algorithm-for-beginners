@@ -1,5 +1,5 @@
 # Cryptocurrency trading algorithm for beginners
-This algorithm was written by me as an example for **Terminus Research Hackathon**. All files with code for run a project and conditions can be found on the hackathon page on github. The presented code only implements the trading strategy as part of the overall hackathon project.
+This algorithm was written by me as an example for **Terminus Research Hackathon**[0]. All files with code for run a project and conditions can be found on the hackathon page on github. The presented code only implements the trading strategy as part of the overall hackathon project.
 
 At the time of publication, the competition has ended and this publication does not violate any rules of the hackathon. 
 
@@ -106,7 +106,7 @@ The algorithm works quite successfully both in the period 01/01/22-01/04/22 (pro
 
 
 Now consider the results in the period 01/04/22-30/06/22, depending on the application of the algorithm approach (see Fig.5, ***Implementation of the algorithm***): constant method A without pricing; method B using LSTM and the finished model ('model_LSTN_min'); method B without a ready-made model with a learning process (new model):
-<p align="center"><img width="627" alt="image" src="https://user-images.githubusercontent.com/114907800/224304551-c8629182-d946-4351-806e-5396fd24d2c8.png">
+<p align="center"><img width="327" alt="image" src="https://user-images.githubusercontent.com/114907800/224304551-c8629182-d946-4351-806e-5396fd24d2c8.png">
 <p align="center">FIGURE 16. Profit shape of the proposed approaches. Period 01.04.22 – 30.06.22
 
 Figure 16 shows the results of all three approaches: the best one is the constant version (see method A of Fig.5, ***Implementation of the algorithm***) (profit ~268k), then the pricing model (see method B of Fig.5, ***Implementation of the algorithm***) and trained by the LSTM model 'model_LSTM_new' (profit ~263k), the last place is the model with pricing without a ready model (profit ~261k) - it is important that the result of the last model may be different with a different quality of the newly trained LSTM model. ***In addition to formal compliance with the recommendation for the hackathon on the presence of pricing in algorithm, with approximately equal transaction costs, method B does not have significant advantages over method A, which is much more advantageous in terms of complexity, resource consumption and, most importantly, fast speed (see table 1)***
@@ -115,7 +115,8 @@ Figure 16 shows the results of all three approaches: the best one is the constan
 ## Review
 Results were obtained that correspond to the conditions of the hackathon. The result of 268k corresponds to the seventh place in fixed the leaderboard (Fig. 18). Algorithm is reacting to a sharp and steady price movement. Figure 17 shows the profit shape “splash” in response to the overall price movement.
 
-![image](https://user-images.githubusercontent.com/114907800/224305364-f9f8ccb9-e7f5-44d7-ae0c-943848ad8889.jpeg)
+<p align="center"><img width="327" alt="image" src="https://user-images.githubusercontent.com/114907800/224312817-4c8efe1b-b6b9-4798-b80d-9fd1be27af3a.jpg">
+
 <p align="center">FIGURE 17. PnL shape sensitivity to price movement
 
 ***Main disadvantages***: This algorithm is not optimal, but it has great potential. In this configuration of the algorithm, the boundary conditions are set constant, which is a very rough condition, but quite suitable for solving the current problem: the algorithm, in fact, is tied to the analytics of a certain period, which will certainly cause a scalability problem.
@@ -133,7 +134,16 @@ Results were obtained that correspond to the conditions of the hackathon. The re
 -	search for similar periods in history with the current one with the construction of further logic;
 -	step-by-step transaction management: a transaction is fixed at each moment of time and is continued until a certain level of profit / loss is reached.
 
+## Contack to me:
+- Linkedin:     www.linkedin.com/in/andreyurusov/
+- FB:   www.facebook.com/andrey.urusov.35
+- Telegram:                                    @AndreyUrusov
+- e-mail:                                 imurusov@mail.ru
+    
+    
 ## References
+[0] https://github.com/TerminusResearch/hackathon
+    
 [1] https://medium.com/the-handbook-of-coding-in-finance/stock-prices-prediction-using-long-short-term-memory-lstm-model-in-python-734dd1ed6827
 
 [2] Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-7, «The Business of High-Frequency Trading», p.117
@@ -141,9 +151,3 @@ Results were obtained that correspond to the conditions of the hackathon. The re
 [3] Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-15, « Minimizing Market Impact», p.245
 
 [4]Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-8, « Statistical Arbitrage Strategies», p.131
-
-## Contack to me:
-- Linkedin:     www.linkedin.com/in/andreyurusov/
-- FB:   www.facebook.com/andrey.urusov.35
-- Telegram:                                    @AndreyUrusov
-- e-mail:                                 imurusov@mail.ru
