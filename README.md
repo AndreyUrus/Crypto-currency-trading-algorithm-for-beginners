@@ -3,9 +3,9 @@ This algorithm was written by me as an example for [**Terminus Research Hackatho
 
 At the time of publication, the competition has ended and this publication does not violate any rules of the hackathon. 
 
-**The algorithm was developed only for the purpose of learning and is not a strategy that can be applied and made a profit in real trading, the author is not responsible for the results of its application.**
+**Disclaimer: The algorithm was developed only for the purpose of learning and is not a strategy that can be applied and made a profit in real trading, the author is not responsible for the results of its application. It doesn’t serve any purpose of promoting any stock or giving any specific investment advice.**
 
-## Disclaimer
+## Introduction
 
 <div align="justify">The presented algorithm is the author's original solution. This instruction and the provided code reflect about 1/4 of the possible potential of the strategy to get into the top 10 of the hackathon leaderboard - as the minimum criterion for the success of the algorithm (minimum 175k). A strategy has been implemented that processes signals related to the “extreme” cases of the logic of price behavior proposed by the author (for more details, see the Direction of Price Movement): when there is a clear understanding of the presence of a stable price movement in the direction of growth or decline (Fig. 1), excluding making profit over shorter periods of time, which reflect the systematic behavior of the price of the traded instrument. The strategy is the result of more than 20 versions of the proposed algorithm with a total net time spent of more than 140 hours. This manual analyzes the main prerequisites, implementation features and suggestions for improving the proposed algorithm, also provides some unpromising approaches that were considered during the evolution of the algorithm.</div>
 
