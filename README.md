@@ -142,10 +142,10 @@ Results were obtained that correspond to the conditions of the hackathon. The re
     
     
 ## References
-[1] https://medium.com/the-handbook-of-coding-in-finance/stock-prices-prediction-using-long-short-term-memory-lstm-model-in-python-734dd1ed6827
+[1] *https://medium.com/the-handbook-of-coding-in-finance/stock-prices-prediction-using-long-short-term-memory-lstm-model-in-python-734dd1ed6827*
 
-[2] Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-7, «The Business of High-Frequency Trading», p.117
+[2] *Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-7, «The Business of High-Frequency Trading», p.117*
 
-[3] Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-15, « Minimizing Market Impact», p.245
+[3] *Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-15, «Minimizing Market Impact», p.245*
 
-[4]Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-8, « Statistical Arbitrage Strategies», p.131
+[4] *Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-8, «Statistical Arbitrage Strategies», p.131*
