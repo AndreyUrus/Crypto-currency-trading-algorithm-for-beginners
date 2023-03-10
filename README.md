@@ -106,7 +106,7 @@ The algorithm works quite successfully both in the period 01/01/22-01/04/22 (pro
 
 
 Now consider the results in the period 01/04/22-30/06/22, depending on the application of the algorithm approach (see Fig.5, ***Implementation of the algorithm***): constant method A without pricing; method B using LSTM and the finished model ('model_LSTN_min'); method B without a ready-made model with a learning process (new model):
-<p align="center"><img width="327" alt="image" src="https://user-images.githubusercontent.com/114907800/224304551-c8629182-d946-4351-806e-5396fd24d2c8.png">
+<p align="center"><img width="656" alt="image" src="https://user-images.githubusercontent.com/114907800/224400288-4104587b-3011-4ae7-b3f8-7284e35c5ca7.png">
 <p align="center">FIGURE 16. Profit shape of the proposed approaches. Period 01.04.22 – 30.06.22
 
 Figure 16 shows the results of all three approaches: the best one is the constant version (see method A of Fig.5, ***Implementation of the algorithm***) (profit ~268k), then the pricing model (see method B of Fig.5, ***Implementation of the algorithm***) and trained by the LSTM model 'model_LSTM_new' (profit ~263k), the last place is the model with pricing without a ready model (profit ~261k) - it is important that the result of the last model may be different with a different quality of the newly trained LSTM model. ***In addition to formal compliance with the recommendation for the hackathon on the presence of pricing in algorithm, with approximately equal transaction costs, method B does not have significant advantages over method A, which is much more advantageous in terms of complexity, resource consumption and, most importantly, fast speed (see table 1)***
