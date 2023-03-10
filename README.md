@@ -1,5 +1,5 @@
 # Cryptocurrency trading algorithm for beginners
-This algorithm was written by me as an example for [**Terminus Research Hackathon**](https://github.com/TerminusResearch/hackathon). All other files to run a project and conditions can be found on the hackathon's page on github. The presented code only implements the trading strategy as part of the hackathon's main project.
+This algorithm was written by me as an example for [**Terminus Research Hackathon**](https://github.com/TerminusResearch/hackathon). All other files to run a project and conditions can be found on the hackathon's page on [github](https://github.com/TerminusResearch/hackathon). The presented code implements the trading strategy as part of the hackathon's main project.
 
 At the time of publication, the competition has ended and this publication does not violate any rules of the hackathon. 
 
