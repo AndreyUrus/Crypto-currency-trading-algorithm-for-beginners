@@ -1,5 +1,5 @@
 # Cryptocurrency trading algorithm for beginners
-This algorithm was written by me as an example for **Terminus Research Hackathon**[0]. All files with code for run a project and conditions can be found on the hackathon page on github. The presented code only implements the trading strategy as part of the overall hackathon project.
+This algorithm was written by me as an example for [**Terminus Research Hackathon**](https://github.com/TerminusResearch/hackathon). All files with code for run a project and conditions can be found on the hackathon page on github. The presented code only implements the trading strategy as part of the overall hackathon project.
 
 At the time of publication, the competition has ended and this publication does not violate any rules of the hackathon. 
 
@@ -142,8 +142,6 @@ Results were obtained that correspond to the conditions of the hackathon. The re
     
     
 ## References
-[0] https://github.com/TerminusResearch/hackathon
-    
 [1] https://medium.com/the-handbook-of-coding-in-finance/stock-prices-prediction-using-long-short-term-memory-lstm-model-in-python-734dd1ed6827
 
 [2] Irene Aldridge, «High-frequency trading: a practical guide to algorithmic strategies and trading systems» 2013, Chapter-7, «The Business of High-Frequency Trading», p.117
