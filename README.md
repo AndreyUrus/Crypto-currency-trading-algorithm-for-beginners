@@ -69,7 +69,7 @@ The algorithm introduces the concept of the current state of the price "new_part
 -	«+ 10» - phase of sharp steady growth - taken with a margin of 30 units to overcome slight fluctuations;
 -	«+ 15» - a phase of moderate growth in which a decline is expected in the near future and to a greater extent than in “+ 10” there is uncertainty in the price behavior;
 -	«- 15» - the phase of a sharp and steady decline of price - is determined similarly to the «+10» phase with a margin of 30 units;
--	«- 10» - the phase of a moderate decline in the price, in which growth is expected in the near future and to a greater extent than in “-15” there is uncertainty in the price behavior.
+-	«- 10» - the phase of a moderate decline in the price, in which growth is expected in the near future and to a greater extent than in «-15» there is uncertainty in the price behavior.
 <p align="center"><img width="535" alt="image" src="https://user-images.githubusercontent.com/114907800/224301756-7de14ee9-ffe1-49d0-91de-b8b91ec7cefe.png">
 <p align="center">FIGURE 8. Example of price behavior 02/04/2022 and classification by phases
 
