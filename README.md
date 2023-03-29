@@ -14,7 +14,7 @@ At the time of publication, the competition has ended and this publication does 
 
 ## Prerequisites for Logic of Algorithm
 1.	Due to the fixed condition of the maximum trade size (percentage_exchange_volume = 0.03), the algorithm additionally does not consider the possible impact on the market when calculating the target_position.
-2.	Due to the fixed class immutability condition «Simulator». It is impossible to additionally pass the profit value from the “simulation_data” table to the strategy algorithm, similarly to the current position (current_position), for the correct calculation of the stop-loss, therefore this metric is not in the current version of the algorithm, although it is a classic integral part of almost any trading strategy.
+2.	Due to the fixed class immutability condition «Simulator». It is impossible to additionally pass the profit value from the “simulation_data” table to the strategy algorithm, similarly to the current position (current_position), for the correct calculation of the stop-loss, therefore this metric is not in the current version of the algorithm, although it is a classic integral part of almost any trading strategy. 
 
     ```
     # Do not edit this code. Your submissions will anyway be executed against this exact simulator.
